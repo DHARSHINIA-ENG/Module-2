@@ -1,40 +1,34 @@
 # Exp.No:2c
-## BUILT-IN FUNCTIONS AND LAMBDA FUNCTIONS - RELATING TWO NUMBERS
+## BUILT-IN FUNCTIONS
 
 ---
 
 ### AIM  
-To write a Python program to check the relation between two numbers — whether one number is greater than, equal to, or lesser than another — using a lambda function.
+To Write a python program to find the 7 to power of 5 using built-in functions.
 
 ---
 
 ### ALGORITHM
 
 1. Begin the program.  
-2. Use `eval()` to get two numbers (`num1` and `num2`) from the user.  
-3. Define a lambda function `max` that takes two arguments `x` and `y`.  
-4. The lambda function compares the numbers and prints:
-   - If `x > y`, then it prints: "`num2` is smaller than `num1`".
-   - Otherwise, it prints: "`num1` is smaller than `num2`".
-5. Call the lambda function by passing `num1` and `num2` as arguments.  
-6. Terminate the program.
-
+2. Get the input x from the user
+3. Get the input y from the user
+4. use built-in function 'pow'(x,y)
+5. Then print the value
 ---
 
 ### PROGRAM
 
 ```
+x=7
+y=5
+z=pow(x,y)
+print(z)
 
 ```
 
 ### OUTPUT
-
-```
-
-```
+![image](https://github.com/user-attachments/assets/e24b247e-b447-48aa-838c-71e61cddcfe9)
 
 ### RESULT
-
-```
-
-```
+Thus the python program to find the 7 to power of 5 using built-in function has been executed successfully.
